@@ -2,18 +2,18 @@
   "name": "backend-exam-2025",
   "version": "1.0.0",
   "description": "1. Clona este repositorio. 2. Ejecuta `npm install`. 3. Desarrolla el proyecto siguiendo la estructura MVC:    - `controllers/` para la lógica de los endpoints.    - `models/` para la lógica de datos (almacenamiento en memoria).    - `routes/` para definir rutas de Express. 4. Asegúrate de que `npm test` pase todos los tests. 5. Haz commit de tu solución y push.",
-  "main": "index.js",
+  "main": "app.js",
   "type": "module",
   "scripts": {
     "start": "node app.js",
     "test": "vitest"
   },
   "dependencies": {
-    "express": "^4.18.0"
+    "express": "^4.21.2"
   },
   "devDependencies": {
-    "vitest": "^1.0.0",
-    "supertest": "^6.0.0"
+    "supertest": "^6.0.0",
+    "vitest": "^1.0.0"
   },
   "keywords": [],
   "author": "",
@@ -21,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/apaezdev/backend-exam-2025/issues"
   },
-  "homepage": "https://github.com/apaezdev/backend-exam-2025#readme"
+  "homepage": "https://github.com/apaezdev/backend-exam-2025#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PUCETEC-DW/examen-segundo-parcial-calebsanlucas-eng.git"
+  }
 }
