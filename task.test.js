@@ -12,7 +12,8 @@ describe('API de Tareas Avanzadas', () => {
         id: 1,
         title: 'Primera tarea',
         description: 'Esta es la descripción',
-        priority: 3
+        priority: 3,
+        
       });
     expect(res.status).toBe(201);
     expect(res.body).toHaveProperty('id');
